@@ -1,0 +1,96 @@
+<config>
+    <menu>
+        <sariina_customerpoints translate="title" module="sariina_customerpoints">
+            <title>Customers Points</title>
+            <sort_order>40</sort_order>
+            <children>
+                <add translate="title" module="sariina_customerpoints">
+                    <title>Add points</title>
+                    <sort_order>10</sort_order>
+                    <action>adminhtml/sariina_customerpoints/add</action>
+                </add>
+                <categories translate="title" module="sariina_customerpoints">
+                    <title>Edit defualt award amounts</title>
+                    <sort_order>50</sort_order>
+                    <action>adminhtml/sariina_customerpoints/categories</action>
+                </categories>
+                <history translate="title" module="sariina_customerpoints">
+                    <title>View history of points</title>
+                    <sort_order>20</sort_order>
+                    <action>adminhtml/sariina_customerpoints/history</action>
+                </history>
+                <leagues translate="title" module="sariina_customerpoints">
+                    <title>Leagues history</title>
+                    <sort_order>30</sort_order>
+                    <action>adminhtml/sariina_customerpoints/leagues</action>
+                </leagues>
+                <leaguetotalpoints translate="title" module="sariina_customerpoints">
+                    <title>Customers total points in league</title>
+                    <sort_order>40</sort_order>
+                    <action>adminhtml/sariina_customerpoints/leaguetotalpoints</action>
+                </leaguetotalpoints>
+                <categoriestotalpoints translate="title" module="sariina_customerpoints">
+                    <title>Points by categories</title>
+                    <sort_order>60</sort_order>
+                    <action>adminhtml/sariina_customerpoints/categoriestotalpoints</action>
+                </categoriestotalpoints>
+                <leagueswinners translate="title" module="sariina_customerpoints">
+                    <title>Leagues winners</title>
+                    <sort_order>70</sort_order>
+                    <action>adminhtml/sariina_customerpoints/leagueswinners</action>
+                </leagueswinners>
+                <leaguestotalsells translate="title" module="sariina_customerpoints">
+                    <title>Leagues total sells</title>
+                    <sort_order>80</sort_order>
+                    <action>adminhtml/sariina_customerpoints/leaguestotalsells</action>
+                </leaguestotalsells>
+            </children>
+        </sariina_customerpoints>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <sariina_customerpoints>
+                        <title>Customer Points</title>
+                        <sort_order>40</sort_order>
+                        <children>
+                            <add>
+                                <title>Add points</title>
+                                <sort_order>10</sort_order>
+                            </add>
+                            <history>
+                                <title>View history of points</title>
+                                <sort_order>20</sort_order>
+                            </history>
+                            <leagues>
+                                <title>View leagues history</title>
+                                <sort_order>30</sort_order>
+                            </leagues>
+                            <leaguetotalpoints>
+                                <title>View customers total points in league</title>
+                                <sort_order>40</sort_order>
+                            </leaguetotalpoints>
+                            <categories>
+                                <title>Edit defualt award amounts</title>
+                                <sort_order>50</sort_order>
+                            </categories>
+                            <categoriestotalpoints>
+                                <title>Points by categories</title>
+                                <sort_order>60</sort_order>
+                            </categoriestotalpoints>
+                            <leagueswinners>
+                                <title>Leagues winners</title>
+                                <sort_order>70</sort_order>
+                            </leagueswinners>
+                            <leaguestotalsells>
+                                <title>Leagues total sells</title>
+                                <sort_order>80</sort_order>
+                            </leaguestotalsells>
+                        </children>
+                    </sariina_customerpoints>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

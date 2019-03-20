@@ -1,0 +1,11 @@
+{
+    "name": "sariina/customerpoints",
+    "description": "Enables admin to give points to customers",
+    "keywords": ["aasud", "point","customer","sariina"],
+    "license": "copyright",
+    "Author": "Sariina",
+    "type": "magento-module",
+    "require":{
+      "magento-hackathon/magento-composer-installer": "*"
+    }
+}

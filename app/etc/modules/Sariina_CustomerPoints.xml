@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <Sariina_CustomerPoints>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Sariina_Aasud />
+            </depends>
+        </Sariina_CustomerPoints>
+    </modules>
+</config>
